@@ -1,0 +1,35 @@
+
+.titleHead{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+.title_Head_Left,.title_Head_Right ,.tab_Menu_bar,.apartments{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo_img {
+    width: 60%;
+}
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.tabMenu,.form,.buttom {
+    padding: 10px;
+}
+.tabMenu_latter {
+    font-size: 15px;
+    color: inherit;
+    text-decoration: none;
+}
