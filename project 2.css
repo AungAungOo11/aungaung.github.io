@@ -1,14 +1,14 @@
 
-.titleHead{
+.titleHead,.head_Second_Box_Div{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 65px;
     width: 100%;
 }
-.title_Head_Left,.title_Head_Right ,.tab_Menu_bar,.apartments{
+.title_Head_Left,.title_Head_Right ,.tab_Menu_bar,.apartments,.title_Head_Second,.searchBar,.searchBarAndMenu,.searchBox ,.searchBarAndButtom{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -32,4 +32,48 @@
     font-size: 15px;
     color: inherit;
     text-decoration: none;
+}
+.title_Head_Second {
+    height: 65px;
+    background-color: rgb(255, 217, 180);
+}
+.head_Second_Box_Div {
+    width: 700px;
+}
+.searchBar {
+    height: 75px;
+    background-color: rgb(25, 42, 92);
+}
+.inputSearch {
+    padding: 0;
+    background-color: peachpuff;
+}
+.searchBox {
+    background-color: peachpuff;
+}
+.search_Bar_Main_Class {
+    margin-left: 10px;
+    width: 250px;
+}
+.searchBarAndMenu {
+    width: 1100px;
+}
+.searchBarMenu,.CheckButtom ,.searchBarAndButtom{
+    width: 32%;
+}
+.adults,.searchButtom {
+    width: 45%;
+    margin-right: 10px;
+}
+.bodyContainer {
+    width: 1100px;
+    margin: 0 auto;
+}
+.address{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
 }
